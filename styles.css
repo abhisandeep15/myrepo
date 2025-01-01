@@ -1,0 +1,81 @@
+/* Reset some default browser styles */
+body, h1, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #0078d7;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    border-bottom: 5px solid #005a9e;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+main h3, main h4, main h5, main h6 {
+    margin-top: 10px;
+    color: #555;
+}
+
+main h3 {
+    color: #4caf50;
+}
+
+main h4 {
+    color: #2196f3;
+}
+
+main h5 {
+    color: #ff9800;
+}
+
+main h6 {
+    color: #f44336;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 5px solid #555;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
